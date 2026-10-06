@@ -17,8 +17,9 @@ class Transaction:
             "date": self.date
         }
 
-    def __str__(self):
-        return (
-            f"{self.transaction_type}: "
-            f"{self.amount} | {self.date}"
+    def display(self):
+        print(
+            f"{self.date} | "
+            f"{self.transaction_type} | "
+            f"{self.amount}"
         )
