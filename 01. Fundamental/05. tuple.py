@@ -20,25 +20,25 @@ print(type(var_1))
 print(len(var_1))
 
 # indexing AND Slicing
-''' print(var_1[3])
+print(var_1[3])
 print(var_1[3:5])
 print(var_1[3:])
 print(var_1[:4])
-print(var_1[-3]) '''
+print(var_1[-3]) 
 
 # Looping
-''' for x in var_1:
-    print(x) '''
+for x in var_1:
+    print(x) 
 
 # python tuple methods
-''' merge = var_1 + var_2
+merge = var_1 + var_2
 print(merge)
 print(merge.count("a"))
-print(merge.index("b")) '''
+print(merge.index("b")) 
 
 # check item if exist
-''' print("a" in var_1)
-print("z" in var_1) '''
+print("a" in var_1)
+print("z" in var_1)
 
 input = input("Input data: ")
 print(input in var_1)
